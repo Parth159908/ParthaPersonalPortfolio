@@ -1,0 +1,312 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="sk" cx="34%" cy="24%" r="74%">
+      <stop offset="0%" stop-color="#f4ca98"/>
+      <stop offset="44%" stop-color="#da9060"/>
+      <stop offset="100%" stop-color="#b87038"/>
+    </radialGradient>
+    <radialGradient id="skE" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c88052"/>
+      <stop offset="100%" stop-color="#a86032"/>
+    </radialGradient>
+    <linearGradient id="hr" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#1c0e06"/>
+      <stop offset="40%" stop-color="#0c0604"/>
+      <stop offset="100%" stop-color="#050202"/>
+    </linearGradient>
+    <radialGradient id="hrSh" cx="40%" cy="18%" r="44%">
+      <stop offset="0%" stop-color="#3c2212" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0c0604" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ir" cx="30%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#8c5430"/>
+      <stop offset="50%" stop-color="#3f1f08"/>
+      <stop offset="100%" stop-color="#100600"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#ffe066"/>
+      <stop offset="35%"  stop-color="#d4a017"/>
+      <stop offset="65%"  stop-color="#f5c830"/>
+      <stop offset="100%" stop-color="#c8960e"/>
+    </linearGradient>
+    <radialGradient id="kL" cx="18%" cy="8%" r="82%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="52%"  stop-color="#fffbe0" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="50%" cy="45%" r="72%">
+      <stop offset="0%"   stop-color="#000000" stop-opacity="0"/>
+      <stop offset="68%"  stop-color="#000000" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
+    </radialGradient>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="5" stdDeviation="8" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="gl" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="goldGl" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .left-upper-lid {
+        transform-origin: 128px 138.5px;
+        animation: blink-upper 6s infinite ease-in-out;
+      }
+      .right-upper-lid {
+        transform-origin: 192px 138.5px;
+        animation: blink-upper 6s infinite ease-in-out;
+      }
+      .left-eyelid-skin {
+        transform-origin: 128px 121px;
+        animation: blink-skin 6s infinite ease-in-out;
+      }
+      .right-eyelid-skin {
+        transform-origin: 192px 121px;
+        animation: blink-skin 6s infinite ease-in-out;
+      }
+      .eyeball-left, .eyeball-right {
+        animation: look-around 12s infinite ease-in-out;
+      }
+      .eyebrow-left {
+        transform-origin: 128px 105px;
+        animation: eyebrow-move 12s infinite ease-in-out;
+      }
+      .eyebrow-right {
+        transform-origin: 192px 105px;
+        animation: eyebrow-move 12s infinite ease-in-out;
+      }
+
+      @keyframes blink-upper {
+        0%, 86%, 90%, 94%, 98%, 100% {
+          transform: scaleY(1);
+        }
+        88%, 92%, 96% {
+          transform: scaleY(-1);
+        }
+      }
+      @keyframes blink-skin {
+        0%, 86%, 90%, 94%, 98%, 100% {
+          transform: scaleY(0);
+        }
+        88%, 92%, 96% {
+          transform: scaleY(1);
+        }
+      }
+      @keyframes look-around {
+        0%, 100% {
+          transform: translate(0, 0);
+        }
+        15%, 25% {
+          transform: translate(-2px, 0.5px);
+        }
+        45%, 55% {
+          transform: translate(2px, -0.5px);
+        }
+        75%, 80% {
+          transform: translate(0px, -1px);
+        }
+      }
+      @keyframes eyebrow-move {
+        0%, 40%, 100% {
+          transform: translateY(0);
+        }
+        45%, 55% {
+          transform: translateY(-1.5px);
+        }
+        75%, 80% {
+          transform: translateY(-2px);
+        }
+      }
+    </style>
+    <clipPath id="left-eye-clip">
+      <ellipse cx="128" cy="138" rx="25" ry="17"/>
+    </clipPath>
+    <clipPath id="right-eye-clip">
+      <ellipse cx="192" cy="138" rx="25" ry="17"/>
+    </clipPath>
+  </defs>
+
+  <!-- ── BACKGROUND ── -->
+  <rect width="320" height="360" fill="#000000"/>
+  <rect width="320" height="360" fill="url(#bg)"/>
+  <ellipse cx="160" cy="165" rx="148" ry="138" fill="#070008" opacity="0.55"/>
+
+  <!-- ── SHOULDERS ── -->
+  <path d="M0,360 L22,270 Q58,234 108,226 L160,222 L212,226 Q262,234 298,270 L320,360 Z" fill="#0b0b16"/>
+  <!-- Key-light edge on left shoulder -->
+  <path d="M22,270 Q58,234 108,226 L128,224 Q76,254 52,320 Z" fill="#ffffff" opacity="0.035"/>
+
+  <!-- ── NECK ── -->
+  <path d="M147,220 Q146,252 151,257 Q160,262 169,257 Q174,252 173,220 Z" fill="url(#sk)"/>
+  <path d="M163,220 Q170,238 171,256 Q174,252 173,220 Z" fill="#9a5020" opacity="0.22"/>
+
+  <!-- ── HEAD ── -->
+  <ellipse cx="160" cy="148" rx="81" ry="87" fill="url(#sk)" filter="url(#ds)"/>
+  <!-- Cinematic right-side shadow -->
+  <ellipse cx="202" cy="156" rx="36" ry="60" fill="#7a3810" opacity="0.2"/>
+  <!-- Cheek blush (subsurface scatter) -->
+  <ellipse cx="116" cy="164" rx="22" ry="17" fill="#e87050" opacity="0.07"/>
+  <ellipse cx="204" cy="164" rx="22" ry="17" fill="#e87050" opacity="0.07"/>
+
+  <!-- ── EARS ── -->
+  <ellipse cx="81"  cy="152" rx="13" ry="18" fill="#ca8252"/>
+  <ellipse cx="81"  cy="152" rx="8"  ry="11" fill="#aa6638"/>
+  <ellipse cx="81"  cy="152" rx="4"  ry="5.5" fill="#986030" opacity="0.5"/>
+  <ellipse cx="81"  cy="167" rx="9"  ry="7"  fill="#c07848"/>
+  <ellipse cx="239" cy="152" rx="13" ry="18" fill="#ca8252"/>
+  <ellipse cx="239" cy="152" rx="8"  ry="11" fill="#aa6638"/>
+  <ellipse cx="239" cy="152" rx="4"  ry="5.5" fill="#986030" opacity="0.5"/>
+  <ellipse cx="239" cy="167" rx="9"  ry="7"  fill="#c07848"/>
+
+  <!-- ── GOLD HOOP EARRINGS ── -->
+  <circle cx="81"  cy="176" r="9" fill="none" stroke="url(#gold)" stroke-width="3.2" filter="url(#goldGl)" opacity="0.98"/>
+  <circle cx="81"  cy="176" r="9" fill="none" stroke="#ffe878"    stroke-width="1"   opacity="0.55"/>
+  <path d="M76,169 Q79,167 83,168" stroke="#fffaaa" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.72"/>
+  <circle cx="239" cy="176" r="9" fill="none" stroke="url(#gold)" stroke-width="3.2" filter="url(#goldGl)" opacity="0.98"/>
+  <circle cx="239" cy="176" r="9" fill="none" stroke="#ffe878"    stroke-width="1"   opacity="0.55"/>
+  <path d="M234,169 Q237,167 241,168" stroke="#fffaaa" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.72"/>
+
+  <!-- ── HAIR – dark sculpted quiff ── -->
+  <!-- Main mass covers top & sides -->
+  <path d="M81,140 Q73,80 97,50 Q122,12 160,8 Q198,12 223,50 Q247,80 239,140 Q216,130 160,132 Q104,130 81,140 Z" fill="url(#hr)"/>
+  <!-- Side curtains -->
+  <path d="M81,140 Q73,104 81,68 Q92,46 111,34 Q95,58 92,100 Z" fill="#040201"/>
+  <path d="M239,140 Q247,104 239,68 Q228,46 209,34 Q225,58 228,100 Z" fill="#040201"/>
+  <!-- Quiff swept-up sections -->
+  <path d="M120,50 Q138,16 160,6  Q141,40 138,60 Z" fill="#100806"/>
+  <path d="M138,60 Q150,22 174,14 Q165,48 161,64 Z" fill="#140a07"/>
+  <path d="M161,64 Q176,28 197,38 Q189,62 180,70 Z" fill="#100806"/>
+  <!-- Quiff top cap (volume) -->
+  <path d="M130,46 Q148,18 172,20 Q190,28 196,44 Q175,30 160,28 Q145,28 130,46 Z" fill="#0c0805"/>
+  <!-- Quiff sheen -->
+  <ellipse cx="152" cy="38" rx="44" ry="24" fill="url(#hrSh)" opacity="0.92"/>
+  <!-- Strand lines -->
+  <path d="M136,18 Q153,6  170,10" stroke="#3c2214" stroke-width="1.7" fill="none" opacity="0.55"/>
+  <path d="M120,40 Q141,20 161,16" stroke="#3c2214" stroke-width="1.4" fill="none" opacity="0.4"/>
+  <path d="M146,14 Q158,6  170,12" stroke="#4c2e18" stroke-width="1.2" fill="none" opacity="0.35"/>
+  <!-- Forehead skin smoothing -->
+  <ellipse cx="160" cy="82" rx="67" ry="32" fill="url(#sk)" opacity="0.94"/>
+
+  <!-- ── EYEBROWS – thick, arched ── -->
+  <g class="eyebrow-left">
+    <path d="M103,110 Q125,98  150,102" stroke="#080402" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+    <path d="M105,111 Q127,100 150,103" stroke="#261508" stroke-width="3"   stroke-linecap="round" fill="none" opacity="0.48"/>
+    <path d="M104,109 Q118,103 134,104" stroke="#3e2212" stroke-width="1.3" fill="none" opacity="0.3"/>
+  </g>
+  <g class="eyebrow-right">
+    <path d="M170,102 Q195,98  217,110" stroke="#080402" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+    <path d="M170,103 Q193,100 215,111" stroke="#261508" stroke-width="3"   stroke-linecap="round" fill="none" opacity="0.48"/>
+    <path d="M186,104 Q202,103 216,109" stroke="#3e2212" stroke-width="1.3" fill="none" opacity="0.3"/>
+  </g>
+
+  <!-- ── LEFT EYE – large Pixar style ── -->
+  <ellipse cx="128" cy="138" rx="28" ry="21" fill="#a06030" opacity="0.15"/>
+  <g clip-path="url(#left-eye-clip)">
+    <ellipse cx="128" cy="138" rx="25" ry="17" fill="#f7f3ed"/>
+    <g class="eyeball-left">
+      <ellipse cx="130" cy="138" rx="15" ry="15" fill="url(#ir)"/>
+      <ellipse cx="130" cy="138" rx="15" ry="15" fill="none" stroke="#080300" stroke-width="1.5" opacity="0.55"/>
+      <circle  cx="131" cy="138" r="7.5"          fill="#030100"/>
+      <ellipse cx="124" cy="131" rx="5.5" ry="4.5" fill="#ffffff" opacity="0.97"/>
+      <ellipse cx="136" cy="145" rx="2.5" ry="2"   fill="#ffffff" opacity="0.4"/>
+      <circle  cx="125" cy="128" r="1.5"            fill="#ffffff" opacity="0.55"/>
+    </g>
+    <!-- Skin colored eyelid cover -->
+    <ellipse class="left-eyelid-skin" cx="128" cy="138" rx="25.5" ry="17.5" fill="url(#skE)"/>
+  </g>
+  <!-- Lower eye crease shadow (static) -->
+  <path d="M103,148 Q128,160 153,148" stroke="#5a3020" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.48"/>
+  <!-- Upper lid and lashes group (animated) -->
+  <g class="left-upper-lid">
+    <path d="M103,129 Q128,117 153,129" stroke="#050200" stroke-width="3"   fill="none" stroke-linecap="round"/>
+    <path d="M103,130 L99,123"   stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M111,124 L108,116"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M120,119 L118,112"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M128,117 L128,110"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M136,119 L137,112"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M144,124 L146,117"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M153,129 L156,123"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+  </g>
+
+  <!-- ── RIGHT EYE – large Pixar style ── -->
+  <ellipse cx="192" cy="138" rx="28" ry="21" fill="#a06030" opacity="0.15"/>
+  <g clip-path="url(#right-eye-clip)">
+    <ellipse cx="192" cy="138" rx="25" ry="17" fill="#f7f3ed"/>
+    <g class="eyeball-right">
+      <ellipse cx="190" cy="138" rx="15" ry="15" fill="url(#ir)"/>
+      <ellipse cx="190" cy="138" rx="15" ry="15" fill="none" stroke="#080300" stroke-width="1.5" opacity="0.55"/>
+      <circle  cx="189" cy="138" r="7.5"          fill="#030100"/>
+      <ellipse cx="184" cy="131" rx="5.5" ry="4.5" fill="#ffffff" opacity="0.97"/>
+      <ellipse cx="196" cy="145" rx="2.5" ry="2"   fill="#ffffff" opacity="0.4"/>
+      <circle  cx="191" cy="128" r="1.5"            fill="#ffffff" opacity="0.55"/>
+    </g>
+    <!-- Skin colored eyelid cover -->
+    <ellipse class="right-eyelid-skin" cx="192" cy="138" rx="25.5" ry="17.5" fill="url(#skE)"/>
+  </g>
+  <!-- Lower eye crease shadow (static) -->
+  <path d="M167,148 Q192,160 217,148" stroke="#5a3020" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.48"/>
+  <!-- Upper lid and lashes group (animated) -->
+  <g class="right-upper-lid">
+    <path d="M167,129 Q192,117 217,129" stroke="#050200" stroke-width="3"   fill="none" stroke-linecap="round"/>
+    <path d="M217,130 L221,123"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M209,124 L212,116"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M200,119 L202,112"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M192,117 L192,110"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M184,119 L183,112"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M176,124 L174,117"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M167,129 L164,123"  stroke="#030100" stroke-width="1.9" stroke-linecap="round"/>
+  </g>
+
+  <!-- ── NOSE ── -->
+  <path d="M160,145 Q154,165 146,176 Q155,183 160,182 Q165,183 174,176 Q166,165 160,145" fill="#b87040" opacity="0.38"/>
+  <ellipse cx="150" cy="174" rx="6.5" ry="5" fill="#9a5828" opacity="0.44"/>
+  <ellipse cx="170" cy="174" rx="6.5" ry="5" fill="#9a5828" opacity="0.44"/>
+  <path d="M158,148 Q159,164 160,173" stroke="#f0c880" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.16"/>
+
+  <!-- ── FRECKLES ── -->
+  <circle cx="142" cy="154" r="1.5" fill="#9a5828" opacity="0.26"/>
+  <circle cx="178" cy="152" r="1.5" fill="#9a5828" opacity="0.26"/>
+  <circle cx="148" cy="161" r="1"   fill="#9a5828" opacity="0.2"/>
+  <circle cx="173" cy="160" r="1"   fill="#9a5828" opacity="0.2"/>
+  <circle cx="136" cy="147" r="1"   fill="#9a5828" opacity="0.16"/>
+  <circle cx="184" cy="146" r="1"   fill="#9a5828" opacity="0.16"/>
+
+  <!-- ── MOUSTACHE ── -->
+  <path d="M140,182 Q151,175 160,176 Q169,175 180,182 Q169,178 160,179 Q151,178 140,182" fill="#080402" opacity="0.92"/>
+  <path d="M140,182 Q151,176 160,177 Q169,176 180,182" stroke="#060200" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+
+  <!-- ── WARM SMILE ── -->
+  <path d="M143,187 Q152,181 160,182 Q168,181 177,187 Q168,183 160,184 Q152,183 143,187" fill="#9e4a28"/>
+  <path d="M143,187 Q160,208 177,187 Q168,198 160,200 Q152,198 143,187" fill="#b85232"/>
+  <path d="M148,190 Q160,204 172,190 Q164,200 160,202 Q156,200 148,190" fill="#f3efea"/>
+  <path d="M143,187 Q160,209 177,187" stroke="#8e3820" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M150,185 Q160,181 170,185" stroke="#d87858" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.38"/>
+  <circle cx="139" cy="189" r="3.5" fill="#b07040" opacity="0.24"/>
+  <circle cx="181" cy="189" r="3.5" fill="#b07040" opacity="0.24"/>
+
+  <!-- ── BEARD – short, trimmed, below mouth only ── -->
+  <path d="M126,198 Q119,214 123,228 Q136,250 160,254 Q184,250 197,228 Q201,214 194,198 Q182,205 160,206 Q138,205 126,198 Z" fill="#080402" opacity="0.89"/>
+  <!-- Sideburn connectors -->
+  <path d="M105,168 Q108,184 118,197" stroke="#0a0604" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.68"/>
+  <path d="M215,168 Q212,184 202,197" stroke="#0a0604" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.68"/>
+  <!-- Beard texture -->
+  <path d="M134,208 Q135,225 138,236" stroke="#1c1008" stroke-width="1.1" fill="none" opacity="0.58"/>
+  <path d="M148,212 Q149,229 150,240" stroke="#1c1008" stroke-width="1.1" fill="none" opacity="0.58"/>
+  <path d="M160,214 Q160,231 160,242" stroke="#1c1008" stroke-width="1.1" fill="none" opacity="0.58"/>
+  <path d="M172,212 Q171,229 170,240" stroke="#1c1008" stroke-width="1.1" fill="none" opacity="0.58"/>
+  <path d="M186,208 Q185,225 182,236" stroke="#1c1008" stroke-width="1.1" fill="none" opacity="0.58"/>
+  <path d="M148,222 Q160,232 172,222" stroke="#2e1a0a" stroke-width="2"   fill="none" opacity="0.32"/>
+
+  <!-- ── CINEMATIC KEY LIGHT ── -->
+  <rect width="320" height="360" fill="url(#kL)"/>
+
+  <!-- ── VIGNETTE ── -->
+  <rect width="320" height="360" fill="url(#vig)"/>
+</svg>

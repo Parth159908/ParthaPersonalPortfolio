@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm create vite@latest . -- --template react-ts 2>&1)",
+      "PowerShell(Get-ChildItem \"$env:USERPROFILE\" | Where-Object { $_.Name -match \"node|nvm|fnm\" })",
+      "PowerShell(Get-ChildItem \"C:\\\\\" | Where-Object { $_.Name -match \"node\" }; Get-ChildItem \"D:\\\\\" | Where-Object { $_.Name -match \"node\" } -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-ChildItem \"$env:APPDATA\" | Where-Object { $_.Name -match \"node|npm|nvm\" })"
+    ]
+  }
+}

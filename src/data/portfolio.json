@@ -1,0 +1,262 @@
+{
+  "profile": {
+    "name": "Parth Chavda",
+    "shortName": "Parth",
+    "tagline": "Building modern Microsoft 365 solutions, AI-powered workflows, and scalable enterprise experiences.",
+    "role": "Technical Analyst (M365) & Full Stack Developer",
+    "specialization": "SharePoint · SPFx · Power Platform · AI Document Processing · Copilot Studio",
+    "location": "Gujarat, India",
+    "yearsOfExperience": 4,
+    "bio": "I'm a Microsoft 365 and Full Stack Developer with 4+ years of experience building enterprise-grade SharePoint, SPFx, and Power Platform solutions for global clients. I specialize in creating scalable business applications, custom SharePoint experiences, workflow automation, and AI-powered document processing systems. From large file management and Azure-based automation to Copilot agents and compliance review systems, I focus on building solutions that improve productivity, streamline operations, and deliver real business impact. I enjoy transforming complex business requirements into clean, user-friendly, and high-performing digital experiences.",
+    "avatarSvg": "/avatar.png",
+    "social": {
+      "github": "https://github.com/Parth159908",
+      "linkedin": "https://www.linkedin.com/in/parth-c-0a3a91152/",
+      "email": "parthchavda1599@gmail.com",
+      "phone": "+91 9408443939",
+      "website": "",
+      "instagram": ""
+    }
+  },
+ "skills": {
+    "categories": [
+      {
+        "name": "Microsoft 365",
+        "items": [
+          "SharePoint Online",
+          "SPFx",
+          "Microsoft 365",
+          "Copilot Studio",
+          "Dataverse",
+          "PowerShell"
+        ]
+      },
+      {
+        "name": "Power Platform",
+        "items": [
+          "Power Apps",
+          "Canvas Apps",
+          "Power Automate",
+          "Workflow Automation",
+          "AI Builder",
+          "Approval Systems"
+        ]
+      },
+      {
+        "name": "AI & Automation",
+        "items": [
+          "Azure AI Document Intelligence",
+          "OCR",
+          "Document Classification",
+          "Custom Extraction Models",
+          "Invoice Automation",
+          "AI Agents"
+        ]
+      },
+      {
+        "name": "Frontend Development",
+        "items": [
+          "React.js",
+          "TypeScript",
+          "JavaScript",
+          "Tailwind CSS",
+          "Fluent UI",
+          "Redux Toolkit"
+        ]
+      },
+      {
+        "name": "Backend & Integration",
+        "items": [
+          "Node.js",
+          "Express.js",
+          "REST APIs",
+          "CSOM",
+          ".NET MVC",
+          "JSON Integration"
+        ]
+      },
+      {
+        "name": "Cloud & Services",
+        "items": [
+          "Azure Logic Apps",
+          "Azure WebJobs",
+          "Azure Blob Storage",
+          "SharePoint APIs",
+          "Automation Pipelines",
+          "Enterprise Integrations"
+        ]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Softweb Solutions",
+      "role": "Technical Analyst (M365)",
+      "period": "May 2025 — Present",
+      "location": "India",
+      "summary": "Working on enterprise Microsoft 365 solutions, AI-powered document automation systems, and intelligent business applications for international clients using SharePoint, Power Platform, Copilot Studio, and Azure AI services.",
+      "highlights": [
+        "Developed AI-powered document review and automation solutions for US-based legal and compliance clients using Copilot Studio, Azure AI Document Intelligence, and Power Automate, enabling automated LLC document analysis, compliance validation, and structured report generation.",
+        "Built an intelligent invoice processing platform for a UK-based client using custom classification and extraction models in Azure AI Document Intelligence to automatically identify vendor invoices and extract key business information such as Invoice IDs, Invoice Dates, Vendor Names, and Purchase Order Numbers.",
+        "Designed and developed enterprise-grade Power Apps Canvas Applications integrated with Dataverse and Power Automate workflows to streamline approvals, operational tracking, role-based processes, and internal business management for enterprise and semi-government organizations.",
+        "Created modern SharePoint Online solutions, customized SPFx components, and workflow automation systems that improved collaboration, centralized document management, and overall operational efficiency across multiple business departments."
+      ]
+    },
+    {
+      "company": "Binary Republik",
+      "role": "Software Developer",
+      "period": "May 2022 — Apr 2025",
+      "location": "Ahmedabad, India",
+      "summary": "Worked on enterprise-grade SharePoint, SPFx, and Power Platform solutions for global clients across pharmaceutical, construction, logistics, HR, and business management domains. Specialized in building scalable Microsoft 365 applications, workflow automation systems, and cloud-integrated business solutions.",
+      "highlights": [
+        "Developed multiple custom SPFx web parts using React.js, TypeScript, SharePoint Framework, and REST APIs to enhance enterprise collaboration and business productivity platforms.",
+        "Built advanced document management systems with large audio/video file upload functionality and automated archival workflows using Azure Logic Apps, Blob Storage, CSOM, and Azure WebJobs.",
+        "Worked on an Australian-based enterprise project to automate region-wise SharePoint updates, daily alerts, and content archival processes for large-scale organizational operations.",
+        "Created a console-based PDF report generation system using C#, CSOM, and SharePoint templates that dynamically merged Excel data into region-specific reports deployed through Azure WebJobs.",
+        "Designed and implemented automated site lifecycle management solutions using Power Apps, Power Automate, and Dataverse, including site creation, extension, deletion, and approval workflows.",
+        "Built business process management modules for construction and operational companies, including Quality Control and Manager Inspection systems with real-time tracking and reporting features.",
+        "Developed a Human Resource Management System using React.js, TypeScript, C#, and .NET MVC to streamline employee management, leave tracking, and HR operational workflows.",
+        "Integrated RSS feed services into SharePoint portals for a US-based biopharmaceutical client, improving internal communication and centralized news distribution.",
+        "Contributed to SharePoint automation and deployment activities using PowerShell scripting, site scripts, and custom administrative workflows.",
+        "Collaborated with cross-functional teams, participated in client discussions, and delivered scalable enterprise solutions aligned with business and operational requirements."
+      ]
+    },
+    {
+      "company": "Binary Republik",
+      "role": "Software Development Intern",
+      "period": "Mar 2022 — May 2022",
+      "location": "Ahmedabad, India",
+      "summary": "Started professional software development journey by working on frontend development, debugging, testing, and enterprise application support while gaining hands-on experience with Microsoft technologies and modern web development practices.",
+      "highlights": [
+        "Worked on application development using JavaScript, jQuery, HTML, and CSS while supporting ongoing enterprise projects.",
+        "Assisted senior developers in debugging, testing, and implementing new features for client-facing applications.",
+        "Participated in documenting software functionality and maintaining application quality standards during development cycles.",
+        "Quickly adapted to enterprise development workflows, collaborative team environments, and modern Microsoft technology stacks.",
+        "Built foundational expertise in SharePoint, React.js, and business application development during the internship period."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "ai-invoice-processing",
+      "title": "AI Invoice Processing Platform",
+      "subtitle": "Azure AI Document Intelligence Automation",
+      "description": "Built an intelligent invoice processing solution for a UK-based client using Azure AI Document Intelligence, custom classification models, and extraction models. Designed a scalable multi-vendor processing architecture where invoices from different vendors with unique layouts are automatically classified and routed to vendor-specific extraction models. Extracted critical business data including Invoice IDs, Invoice Dates, Vendor Names, and multiple Purchase Order Numbers. Integrated the solution with Power Automate to parse extracted JSON responses, generate CSV reports, and automatically upload processed data into SharePoint libraries for downstream business operations.",
+      "stack": [
+        "Azure AI Document Intelligence",
+        "Power Automate",
+        "SharePoint",
+        "AI Builder",
+        "OCR",
+        "JSON Parsing"
+      ],
+      "role": "Technical Analyst (M365)",
+      "year": "2026",
+      "link": "",
+      "image": "/projects/ai-document-processing.jpg",
+      "highlight": true
+    },
+    {
+      "id": "copilot-llc-review",
+      "title": "AI Copilot Document Review Agent",
+      "subtitle": "LLC Compliance & Risk Validation System",
+      "description": "Developed an AI-powered Copilot Studio agent for a US-based legal and compliance client to automate LLC document review and compliance verification workflows. The system analyzes uploaded legal documents, validates business registrations across 50+ US state portals, detects missing documents and compliance risks, and generates structured review reports using Power Automate and Microsoft AI services.",
+      "stack": [
+        "Copilot Studio",
+        "Power Automate",
+        "Azure AI",
+        "SharePoint",
+        "Microsoft 365"
+      ],
+      "role": "Technical Analyst (M365)",
+      "year": "2025-2026",
+      "link": "",
+      "image": "/projects/compliance-review.jpg",
+      "highlight": true
+    },
+    {
+      "id": "site-lifecycle-management",
+      "title": "Site Lifecycle Management System",
+      "subtitle": "Enterprise SharePoint Governance Automation",
+      "description": "Designed and developed an end-to-end SharePoint Site Lifecycle Management solution using Power Apps, Power Automate, and Dataverse. The platform automated site creation, extension, deletion requests, approval workflows, role-based access management, and operational tracking dashboards for enterprise governance.",
+      "stack": [
+        "Power Apps",
+        "Power Automate",
+        "Dataverse",
+        "SharePoint",
+        "Microsoft 365"
+      ],
+      "role": "Power Platform Developer",
+      "year": "2025",
+      "link": "",
+      "image": "/projects/site-lifecycle-management.png",
+      "highlight": true
+    },
+    {
+      "id": "australian-post-project",
+      "title": "Post Office Automation Platform",
+      "subtitle": "Enterprise File Management & Automation",
+      "description": "Worked on a large-scale SharePoint solution for managing regional updates and enterprise content workflows across Australian regions. Developed custom SPFx web parts, implemented large audio/video upload systems, automated archival processes using Azure Logic Apps and Blob Storage, and created PDF generation systems using Azure WebJobs and CSOM integration.",
+      "stack": [
+        "SPFx",
+        "React",
+        "Azure Logic Apps",
+        "CSOM",
+        "Power Automate"
+      ],
+      "role": "Software Developer",
+      "year": "2024-2025",
+      "link": "",
+      "image": "/projects/large-file-management.jpg",
+      "highlight": true
+    },
+    {
+      "id": "construction-management",
+      "title": "Construction Quality Management System",
+      "subtitle": "Inspection & Operational Tracking Platform",
+      "description": "Developed enterprise modules for construction project management including Quality Control and Manager Inspection systems using React.js and TypeScript. The platform improved operational visibility, inspection workflows, and real-time project tracking for enterprise construction operations.",
+      "stack": [
+        "SharePoint",
+        "SPFx",
+        "React",
+        "TypeScript",
+        "REST API"
+      ],
+      "role": "Software Developer",
+      "year": "2023",
+      "link": "",
+      "image": "/projects/construction-tracking.jpg",
+      "highlight": false
+    },
+    {
+      "id": "hr-management-system",
+      "title": "Human Resource Management System",
+      "subtitle": "Enterprise HR Operations Platform",
+      "description": "Built a comprehensive Human Resource Management System with employee management, leave tracking, reporting, and performance workflows using React.js, TypeScript, C#, and .NET MVC. Designed to improve HR operational efficiency and streamline internal workforce management.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "C#",
+        "SharePoint",
+        "SPFx",
+        "SQL"
+      ],
+      "role": "Software Developer",
+      "year": "2024",
+      "link": "",
+      "image": "/projects/hr-management.jpg",
+      "highlight": false
+    }
+  ],
+  "education": [
+    {
+      "institution": "Laxmi Institute of Technology ",
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science & Engineering",
+      "period": "2017 — 2021",
+      "location": "Gujarat, India",
+      "gpa": "8.5 / 10"
+    }
+  ],
+  "testimonials": []
+}
